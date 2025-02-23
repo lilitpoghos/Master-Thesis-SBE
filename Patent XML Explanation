@@ -1,0 +1,99 @@
+""# IPC Classification (Technology Domain)
+
+```xml
+<classification-ipcr>
+    <text>B41J 2/14</text>
+</classification-ipcr>
+```
+
+- `<classification-ipcr>`: The main tag indicating the International Patent Classification (IPC) code.
+- `<text>`: The specific IPC code (`B41J 2/14`) showing the technological category of the patent.
+
+---
+
+# Applicant Information
+
+```xml
+<B700>
+    <B710>
+        <B711>
+            <snm>Toshiba TEC K.K.</snm>
+            <adr>
+                <str>2-17-2, Higashigotanda</str>
+                <city>Tokyo</city>
+                <ctry>JP</ctry>
+            </adr>
+        </B711>
+    </B710>
+</B700>
+```
+
+- `<B700>`: Block containing applicant or inventor information.
+- `<snm>`: Applicant's name (`Toshiba TEC K.K.`).
+- `<adr>`: Address details:
+    - `<str>`: Street address (`2-17-2, Higashigotanda`).
+    - `<city>`: City (`Tokyo`).
+    - `<ctry>`: Country code (`JP` for Japan).
+
+---
+
+# Title and Abstract
+
+```xml
+<B540>
+    <B541>en</B541>
+    <B542>Ink jet head driving method</B542>
+</B540>
+<B560><B561>US-A1 2020 197 524</B561></B560>
+<B562><text>PATENT ABSTRACTS OF JAPAN</text></B562>
+```
+
+- `<B540>`: Contains title information.
+- `<B541>`: Language of the title (`en` for English).
+- `<B542>`: Patent title (`Ink jet head driving method`).
+- `<B560>` and `<B561>`: Related documents or references (`US-A1 2020 197 524`).
+- `<B562>`: Abstract or summary of the patent (`PATENT ABSTRACTS OF JAPAN`).
+
+---
+
+# Priority Information
+
+```xml
+<B300>
+    <B310>US201862</B310>
+    <B320><date>20180516</date></B320>
+</B300>
+```
+
+- `<B300>`: Block containing priority information.
+- `<B310>`: Priority application number (`US201862`).
+- `<B320>`: Priority date (`20180516` = 16th May 2018).
+
+---
+
+# Patent Application Details
+
+```xml
+<B210>EP20082103129</B210>
+<B220><date>20181113</date></B220>
+```
+
+- `<B210>`: Application number (`EP20082103129`).
+- `<B220>`: Filing date (`20181113` = 13th November 2018).
+
+---
+
+# Patent Meta Information
+
+```xml
+<ep-bulletin id="EP0257585B1" file="05027585.8" lang="en" country="EP" doc-number="1333882" kind="B1" date-publ="20250205">
+```
+
+- `id`: Unique identifier for the patent (`EP0257585B1`).
+- `file`: Internal file reference (`05027585.8`).
+- `lang`: Language of the patent document (`en` for English).
+- `country`: Patent office or region (`EP` for European Patent Office).
+- `doc-number`: Patent document number (`1333882`).
+- `kind`: Type of publication (`B1` often indicates a granted patent).
+- `date-publ`: Publication date (`20250205` = 5th February 2025).
+""
